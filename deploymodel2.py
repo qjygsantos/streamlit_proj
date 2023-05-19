@@ -53,5 +53,5 @@ else:
         8: 'Bag',
         9: 'Ankle boot'
     }
-    string = "OUTPUT: " + labels[result[0]]
+    string = "Type of Outfit Prediction: " + labels[result[0]]
     st.success(string)
